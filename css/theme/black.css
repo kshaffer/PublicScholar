@@ -18,6 +18,7 @@ body {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
+  text-shadow: 0 2px #111;
   color: #fff; }
 
 ::selection {
@@ -40,7 +41,7 @@ body {
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: none;
+  text-shadow: 2px 2px #111;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -55,8 +56,6 @@ body {
 .reveal h4 {
   font-size: 1em; }
 
-.reveal h1 {
-  text-shadow: none; }
 
 /*********************************************
  * OTHER
@@ -181,7 +180,8 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: rgb(239, 142, 16);
+  text-shadow: 0 2px #111;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
